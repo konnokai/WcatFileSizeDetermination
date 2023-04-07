@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WcatFileSizeDetermination.Properties {
+namespace Wcat_Index_Decide.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WcatFileSizeDetermination.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WcatFileSizeDetermination.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Wcat_Index_Decide.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,194 +63,9 @@ namespace WcatFileSizeDetermination.Properties {
         /// <summary>
         ///   查詢類似 System.IO.MemoryStream 的類型 System.IO.UnmanagedMemoryStream 當地語系化資源。
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream catora_talk_006 {
+        internal static System.IO.UnmanagedMemoryStream catora {
             get {
-                return ResourceManager.GetStream("catora_talk_006", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 AISystem
-        ///Accessory
-        ///Action
-        ///AdvancedJobItem
-        ///Area
-        ///Building
-        ///Card
-        ///Character
-        ///CutScene
-        ///Data
-        ///Effect
-        ///EffectViewer
-        ///Event
-        ///ExSoulBoard
-        ///FieldTable
-        ///InGame
-        ///Item
-        ///List
-        ///Location
-        ///Logo
-        ///MapChip
-        ///NGUIAtlas
-        ///OutGame
-        ///Shop
-        ///SoulBoard
-        ///Sound
-        ///Sound_SE
-        ///Sound_SE_v2
-        ///Stage
-        ///StagePlacementObject
-        ///Stamp
-        ///TexturesDL
-        ///Town
-        ///Weapon
-        ///WeaponBullet
-        ///WeaponBullet_Prefabs
-        ///World 的當地語系化字串。
-        /// </summary>
-        internal static string Index {
-            get {
-                return ResourceManager.GetString("Index", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon item_608820 {
-            get {
-                object obj = ResourceManager.GetObject("item_608820", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon jp_0 {
-            get {
-                object obj = ResourceManager.GetObject("jp_0", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon jp_1 {
-            get {
-                object obj = ResourceManager.GetObject("jp_1", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon jp_2 {
-            get {
-                object obj = ResourceManager.GetObject("jp_2", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon jp_3 {
-            get {
-                object obj = ResourceManager.GetObject("jp_3", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon kr_0 {
-            get {
-                object obj = ResourceManager.GetObject("kr_0", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon kr_1 {
-            get {
-                object obj = ResourceManager.GetObject("kr_1", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon kr_2 {
-            get {
-                object obj = ResourceManager.GetObject("kr_2", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon kr_3 {
-            get {
-                object obj = ResourceManager.GetObject("kr_3", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon notifyIcon1 {
-            get {
-                object obj = ResourceManager.GetObject("notifyIcon1", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon tw_0 {
-            get {
-                object obj = ResourceManager.GetObject("tw_0", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon tw_1 {
-            get {
-                object obj = ResourceManager.GetObject("tw_1", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon tw_2 {
-            get {
-                object obj = ResourceManager.GetObject("tw_2", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Icon tw_3 {
-            get {
-                object obj = ResourceManager.GetObject("tw_3", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
+                return ResourceManager.GetStream("catora", resourceCulture);
             }
         }
     }

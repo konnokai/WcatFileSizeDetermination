@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA1805: 請勿進行非必要的初始化
+dotnet_diagnostic.CA1805.severity = silent

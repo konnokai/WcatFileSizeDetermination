@@ -1,18 +1,24 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WcatFileSizeDetermination.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Wcat_Index_Decide.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="IndexSavePath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="TWServer" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://img.wcproject.so-net.tw/assets/2018/a/</Value>
-    </Setting>
-    <Setting Name="JPServer" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://i-cf.wcat.colopl.jp/assets/2020/a/</Value>
-    </Setting>
     <Setting Name="ExportSavePath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="JPAndroidServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://i-cf.wcat.colopl.jp/assets/2020/a/</Value>
+    </Setting>
+    <Setting Name="JPiOSServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://i-cf.wcat.colopl.jp/assets/2020/i/</Value>
+    </Setting>
+    <Setting Name="TWAndroidServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://img.wcproject.so-net.tw/assets/2020/a/</Value>
+    </Setting>
+    <Setting Name="TWiOSServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://img.wcproject.so-net.tw/assets/2020/i/</Value>
     </Setting>
   </Settings>
 </SettingsFile>

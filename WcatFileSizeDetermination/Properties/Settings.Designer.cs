@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WcatFileSizeDetermination.Properties {
+namespace Wcat_Index_Decide.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.5.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.4.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -37,30 +37,6 @@ namespace WcatFileSizeDetermination.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://img.wcproject.so-net.tw/assets/2018/a/")]
-        public string TWServer {
-            get {
-                return ((string)(this["TWServer"]));
-            }
-            set {
-                this["TWServer"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://i-cf.wcat.colopl.jp/assets/2020/a/")]
-        public string JPServer {
-            get {
-                return ((string)(this["JPServer"]));
-            }
-            set {
-                this["JPServer"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string ExportSavePath {
             get {
@@ -68,6 +44,54 @@ namespace WcatFileSizeDetermination.Properties {
             }
             set {
                 this["ExportSavePath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://i-cf.wcat.colopl.jp/assets/2020/a/")]
+        public string JPAndroidServer {
+            get {
+                return ((string)(this["JPAndroidServer"]));
+            }
+            set {
+                this["JPAndroidServer"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://i-cf.wcat.colopl.jp/assets/2020/i/")]
+        public string JPiOSServer {
+            get {
+                return ((string)(this["JPiOSServer"]));
+            }
+            set {
+                this["JPiOSServer"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://img.wcproject.so-net.tw/assets/2020/a/")]
+        public string TWAndroidServer {
+            get {
+                return ((string)(this["TWAndroidServer"]));
+            }
+            set {
+                this["TWAndroidServer"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://img.wcproject.so-net.tw/assets/2020/i/")]
+        public string TWiOSServer {
+            get {
+                return ((string)(this["TWiOSServer"]));
+            }
+            set {
+                this["TWiOSServer"] = value;
             }
         }
     }

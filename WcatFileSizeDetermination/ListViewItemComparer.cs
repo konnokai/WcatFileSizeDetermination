@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Windows.Forms;
+﻿#pragma warning disable CS8767 // 參數類型中參考型別是否可為 NULL 的情況，與隱含實作的成員不相符 (可能的原因是屬性可為 NULL )。
 
-namespace WcatFileSizeDetermination
+using System.Collections;
+
+namespace Wcat_Index_Decide
 {
     public class ListViewItemComparer : IComparer
 	{
@@ -17,8 +18,8 @@ namespace WcatFileSizeDetermination
 			col = colum;
 		}
 
-		public int Compare(object x, object y)
-		{
+        public int Compare(object x, object y)
+        {
 			int num = 0;
 			if (order == SortOrder.Descending)
 			{
