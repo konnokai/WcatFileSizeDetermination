@@ -188,14 +188,16 @@ namespace Wcat_Index_Decide
             SetLableText($"運行第{step}次", Lab_Step);
 
             bool isFileExist = true;
-            string serverFileName = FileName + "?t=" + DateTime.Now.ToFileTime();
+            string serverFileName = FileName + "?v=" + DateTime.Now.ToFileTime();
             string unity3dPath = $"{IndexSavePath}\\{ConvertServerIndexToServerName()}\\{Path.GetFileNameWithoutExtension(FileName)}-{DateTime.Now:HH-mm}{Path.GetExtension(FileName)}";
 
             SetLableText("狀態: 抓取中", Lab_Status);
+            WriterLog(serverUrl + serverFileName);
 
             oldFileLength = newFileLength;
             if ((newFileLength = Utility.GetWebFileSize(serverUrl + serverFileName)) == -1)
             {
+                SetLableText("狀態: 等待中", Lab_Status);
                 WriterLog("網路錯誤，無法取得檔案大小");
                 isFileExist = false;
             }
@@ -340,7 +342,7 @@ namespace Wcat_Index_Decide
                 string logPath = $"{IndexSavePath}\\{ConvertServerIndexToServerName()}\\{GetIndexName(FileName).ToUpper()}-{DateTime.Now:MM-dd}-LOG.txt";
                 if (!Directory.Exists(Path.GetDirectoryName(logPath))) Directory.CreateDirectory(Path.GetDirectoryName(logPath));
 
-                File.AppendAllText(logPath, $"{DateTime.Now:yyyy-MM-dd-HH-mm}\t{serverName[ServerIndex]}\t{FileName}\t{text}\r\n");
+                File.AppendAllText(logPath, $"{DateTime.Now:yyyy-MM-dd-HH-mm} | {serverName[ServerIndex]} | {FileName} | {text}\r\n");
             }
             catch (Exception) { }
         }
